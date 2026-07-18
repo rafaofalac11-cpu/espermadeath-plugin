@@ -1,0 +1,15 @@
+name: CicloDias
+version: 1.0.0
+main: com.example.ciclodias.CicloDias
+api-version: '1.21'
+description: Dia extendido 50%, descuento aldeanos 25%, contador de dias
+commands:
+  dias:
+    description: Contador de dias
+    usage: /dias <siguiente|anterior|set <dia>>
+    aliases: [dia]
+    permission: ciclodias.admin
+permissions:
+  ciclodias.admin:
+    description: Controlar el contador de dias
+    default: op

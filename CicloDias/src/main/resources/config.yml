@@ -1,0 +1,8 @@
+# CicloDias - Configuracion
+
+# Dia dura 50% mas (ciclo de 36000 ticks en vez de 24000)
+dia-extendido: true
+
+# Descuento permanente del 25% en todos los aldeanos
+descuento-aldeanos: true
+porcentaje-descuento: 25

@@ -1,0 +1,15 @@
+name: PollosMagicos
+version: 1.0.0
+main: com.example.pollosmagicos.PollosMagicos
+api-version: '1.21'
+description: Pollos mágicos con tradeos, efectos de proximidad y huevito de vida
+commands:
+  pollosmagicos:
+    description: Comando principal de Pollos Magicos
+    usage: /pollosmagicos <spawn|give>
+    aliases: [pm]
+    permission: pollosmagicos.admin
+permissions:
+  pollosmagicos.admin:
+    description: Acceso a comandos de Pollos Magicos
+    default: op
