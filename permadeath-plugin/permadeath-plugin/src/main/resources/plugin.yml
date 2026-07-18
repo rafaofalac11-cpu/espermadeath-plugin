@@ -1,0 +1,16 @@
+name: PermaDeath
+version: '1.0.0'
+main: com.permadeath.plugin.PermaDeath
+api-version: '1.21'
+author: TuNombre
+description: Al morir, el jugador queda eliminado permanentemente del servidor.
+
+commands:
+  revivir:
+    description: Revive a un jugador eliminado, permitiéndole volver a entrar.
+    usage: /revivir <jugador>
+
+permissions:
+  permadeath.revivir:
+    description: Permite revivir a jugadores eliminados
+    default: op
